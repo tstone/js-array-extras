@@ -2,7 +2,7 @@
 Array Extras for Javascript
 ===========================
 
-A few little things I find myself using a lot.
+A few little things I find myself using.
 
 
 Array.clone()
@@ -79,7 +79,7 @@ Same thing as .push() but does not mutate the source array.  Returns the new arr
 
 ```javascript
 var a = [1, 2, 3];
-var b = a.push(4);
+var b = a.ipush(4);
 // a == [1, 2, 3];
 // b == [1, 2, 3, 4];
 ```
@@ -90,7 +90,7 @@ Same thing as .reverse() but does not mutate the source array.  Returns the new 
 
 ```javascript
 var a = [1, 2, 3];
-var b = a.reverse();
+var b = a.ireverse();
 // a == [1, 2, 3];
 // b == [3, 2, 1];
 ```
@@ -101,7 +101,7 @@ Same thing as .unshift() but does not mutate the source array.  Returns the new 
 
 ```javascript
 var a = [1, 2, 3];
-var b = a.unshift(0);
+var b = a.iunshift(0);
 // a == [1, 2, 3];
 // b == [0, 1, 2, 3];
 ```
