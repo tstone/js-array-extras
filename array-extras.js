@@ -68,8 +68,8 @@
         // Immutable variations of standard functions
         ipush: immutableAction('push'),
         ireverse: immutableAction('reverse'),
-        isort: immutableAction('sort'),
-        isplice: immutableAction('splice'),
+        // isort: immutableAction('sort'),
+        // isplice: immutableAction('splice'),
         iunshift: immutableAction('unshift')
 
     };
