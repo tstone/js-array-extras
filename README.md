@@ -23,8 +23,8 @@ Remove the first array element from the array (head) and return an object contai
 var a = [1, 2, 3];
 var b = a.cons();
 // a == [1, 2, 3];
-// b.head = 1;
-// b.tail = [2, 3];
+// b.head == 1;
+// b.tail == [2, 3];
 ```
 
 Array.sets()
@@ -44,6 +44,7 @@ Returns a new array containing consecutive pairs from the source array.
 ```javascript
 var a = [1, 2, 3, 4].pairs();
 // a == [ [1, 2], [3, 4] ]
+
 var b = [1, 2, 3].pairs();
 // b == [ [1, 2], [3] ]
 ```
@@ -55,6 +56,7 @@ Returns a new array containing consecutive triples from the source array.
 ```javascript
 var a = [1, 2, 3, 4, 5, 6].pairs();
 // a == [ [1, 2, 3], [4, 5, 6] ]
+
 var b = [1, 2, 3, 4].pairs();
 // b == [ [1, 2, 3], [4] ]
 ```
@@ -67,8 +69,8 @@ Same thing as .cons() but works on the last element.  Head in this case is the r
 var a = [1, 2, 3];
 var b = a.ipop();
 // a == [1, 2, 3];
-// b.head = [1, 2];
-// b.tail = 3;
+// b.head == [1, 2];
+// b.tail == 3;
 ```
 
 Array.ipush()
@@ -103,3 +105,5 @@ var b = a.unshift(0);
 // a == [1, 2, 3];
 // b == [0, 1, 2, 3];
 ```
+
+Yeah, it extends window.Array.  You'll get over it.
