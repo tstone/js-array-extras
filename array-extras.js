@@ -81,12 +81,3 @@
         }
     }
 }());
-
-// ------------------------------------------
-
-var stops = [1, 3, 5];
-var steps = 6;
-var sets = stops.sets();
-var pairs = stops.triples();
-
-console.log(pairs);
