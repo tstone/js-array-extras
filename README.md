@@ -54,10 +54,10 @@ Array.triples()
 Returns a new array containing consecutive triples from the source array.
 
 ```javascript
-var a = [1, 2, 3, 4, 5, 6].pairs();
+var a = [1, 2, 3, 4, 5, 6].triples();
 // a == [ [1, 2, 3], [4, 5, 6] ]
 
-var b = [1, 2, 3, 4].pairs();
+var b = [1, 2, 3, 4].triples();
 // b == [ [1, 2, 3], [4] ]
 ```
 
