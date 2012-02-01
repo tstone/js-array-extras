@@ -76,7 +76,7 @@
 
     // Extend
     for (var key in extras) {
-        if (extras.hasOwnProperty(key) || !Array.prototype[key]) {
+        if (extras.hasOwnProperty(key) && !Array.prototype[key]) {
             Array.prototype[key] = extras[key];
         }
     }
